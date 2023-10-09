@@ -1,4 +1,20 @@
 $(document).ready(function () {
+
+    $(".dropdown .selected-option").click(function () {
+        var dropdown = $(this).closest('.dropdown');
+        dropdown.find(".dropdown-list").slideToggle();
+        dropdown.find(".bi").toggleClass("rotate");
+    });
+
+    $(".dropdown .dropdown-list li").click(function () {
+        var selectedOption = $(this).text();
+        var dropdown = $(this).closest('.dropdown');
+        dropdown.find(".selected-option").html(selectedOption + ' <i class="bi bi-chevron-down"></i>');
+        dropdown.find(".dropdown-list").slideUp();
+        dropdown.find(".bi").removeClass("rotate");
+    });
+
+
     $('.testimonial-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 2,

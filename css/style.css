@@ -152,11 +152,16 @@
       margin: 0 auto;
       outline: none;
       border: 2px solid transparent;
+      border-radius: 6px;
       transition: background 0.2s;
       -webkit-transition: background 0.2s;
       -moz-transition: background 0.2s;
       -ms-transition: background 0.2s;
       -o-transition: background 0.2s;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
   }
 
   .button-not-rounded:hover {
@@ -235,7 +240,7 @@
   }
 
   .about-section .content>*+* {
-      margin-top: 1rem;
+      margin-top: 2rem;
   }
 
   .about-section .about-content-list {
@@ -301,13 +306,13 @@
   }
 
   .why-work-section .content>*+* {
-      margin-top: 1rem;
+      margin-top: 2rem;
   }
 
   .why-work-section .img-section {
       position: relative;
       width: 40%;
-      padding-top: 29%;
+      padding-top: 408px;
       min-height: 1px;
   }
 
@@ -584,7 +589,7 @@
   .job-seekers-testimonial-section .img-section {
       position: relative;
       width: 40%;
-      padding-top: 24%;
+      padding-top: 24rem;
       min-height: 1px;
   }
 
@@ -652,7 +657,7 @@
   .custome-row {
       display: flex;
       align-items: flex-start;
-      gap: 1rem;
+      gap: 2.5rem;
       justify-content: center;
       padding: 1rem 0;
   }
@@ -764,6 +769,7 @@
       width: 100%;
   }
 
+
   .select-location-section .selected-location-btn {
       border: 0;
       outline: none;
@@ -772,7 +778,11 @@
       width: fit-content;
       background-color: var(--color4);
       display: block;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      color: #A4A0A0;
   }
+
 
   .select-location-section .select-location-dropdown {
       width: 100%;
@@ -863,11 +873,11 @@
       font-weight: 700;
   }
 
-
   .hiring-section {
       display: flex;
       align-items: center;
       justify-content: center;
+      background-color: var(--color7);
   }
 
   .hiring-section .content-box {
@@ -877,7 +887,7 @@
   .hiring-section .img-section {
       width: 30%;
       position: relative;
-      padding-top: 14%;
+      padding-top: 14rem;
   }
 
   .hiring-section .img-section img {
@@ -905,6 +915,15 @@
   .grid-cols-2 .img-section {
       position: relative;
       width: 40%;
+      padding-top: 24rem;
+  }
+
+  .grid-cols-2 .img-section img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
   }
 
   .grid-cols-2 .content-box {
@@ -1036,4 +1055,76 @@
       color: var(--color8);
       font-size: 18px;
       font-weight: 600;
+  }
+
+
+  .dropdown {
+      position: relative;
+      width: 100%;
+      cursor: pointer;
+  }
+
+  .selected-option {
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+
+  .selected-option i {
+      font-size: 32px;
+      transition: 0.4s;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      -ms-transition: 0.4s;
+      -o-transition: 0.4s;
+  }
+
+  .dropdown-list {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      border-top: none;
+      border-radius: 0.5rem;
+      box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.10);
+      display: none;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      -webkit-border-radius: 0.5rem;
+      -moz-border-radius: 0.5rem;
+      -ms-border-radius: 0.5rem;
+      -o-border-radius: 0.5rem;
+      z-index: 99;
+  }
+
+  .dropdown-list li {
+      padding: 10px;
+      cursor: pointer;
+      color: #333;
+      text-align: left;
+      font-size: 1rem;
+      font-weight: 400;
+  }
+
+  .dropdown-list li:hover {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      letter-spacing: 1px;
+  }
+
+  .rotate {
+      transform: rotate(180deg);
+      transition: 0.4s;
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      -ms-transition: 0.4s;
+      -o-transition: 0.4s;
   }
