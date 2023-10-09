@@ -15,17 +15,19 @@
 
     .why-work-section {
         flex-direction: column-reverse;
-        padding: 1rem 0;
+        padding: 0 0 1rem 0;
     }
 
     .why-work-section .content-box {
         width: 100%;
-        padding: 1rem;
+        padding: 1rem 1rem 0 1rem;
     }
 
     .why-work-section .img-section {
         width: 100%;
+        padding-top: 56%;
     }
+
 
     .why-work-section .content {
         max-width: 100%;
@@ -85,13 +87,14 @@
 
 
     .job-seekers-testimonial-section {
-        padding: 2rem 0;
+        padding: 0rem 0 2rem 0;
         flex-direction: column;
         gap: 1rem;
     }
 
     .job-seekers-testimonial-section .img-section {
         width: 100%;
+        padding-top: 56%;
     }
 
     .job-seekers-testimonial-section .content-box {
@@ -112,6 +115,7 @@
 
     .hiring-section .img-section {
         width: 100%;
+        padding-top: 56%;
     }
 
 
@@ -289,6 +293,13 @@
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
     }
+
+
+    .why-work-section .img-section {
+        width: 100%;
+        padding-top: 64%;
+    }
+
 
 }
 
