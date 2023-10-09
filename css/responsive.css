@@ -33,6 +33,10 @@
         max-width: 100%;
     }
 
+    .footer {
+        padding: 22px;
+    }
+
     .footer-components {
         flex-direction: column;
         align-items: flex-start;
@@ -193,6 +197,11 @@
 
     .work-process-timeline .work-process-box .content {
         text-align: left;
+    }
+
+
+    .work-process-timeline .work-process-box .icon-box {
+        outline: none;
     }
 
 }

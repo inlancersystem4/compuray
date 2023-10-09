@@ -307,7 +307,7 @@
   .why-work-section .img-section {
       position: relative;
       width: 40%;
-      padding-top: 24%;
+      padding-top: 29%;
       min-height: 1px;
   }
 
@@ -346,7 +346,7 @@
   .testimonial-section .section-title {
       color: var(--color3);
       font-size: 28px;
-      font-weight: 600;
+      font-weight: 500;
       margin-bottom: 2rem;
   }
 
@@ -375,7 +375,7 @@
   .testimonial-section .testimonial-box .client-name {
       color: var(--color10);
       font-size: 24px;
-      font-weight: 600;
+      font-weight: 500;
   }
 
   .testimonial-section .testimonial-box .client-staus {
@@ -399,14 +399,14 @@
 
   .footer {
       background-color: var(--color6);
-      padding: 22px;
+      padding: 22px 182px 22px 22px;
   }
 
   .footer-components {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 2rem;
+      gap: 1.5rem;
   }
 
   .footer-link-list {
@@ -562,7 +562,6 @@
   .journey-with-us-section .title {
       color: var(--color6);
       font-size: 28px;
-      font-weight: 700;
   }
 
   .journey-with-us-section .sub-title {
@@ -630,7 +629,7 @@
       color: var(--color3);
       text-align: center;
       font-size: 25px;
-      font-weight: 600;
+      font-weight: 500;
   }
 
 
@@ -878,7 +877,7 @@
   .hiring-section .img-section {
       width: 30%;
       position: relative;
-      padding-top: 18%;
+      padding-top: 14%;
   }
 
   .hiring-section .img-section img {
@@ -1013,7 +1012,17 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      outline: 16px solid var(--color4);
   }
+
+  /* .work-process-timeline .work-process-box .icon-box::after,
+  .work-process-timeline .work-process-box .icon-box::before {
+      content: "";
+      height: 100%;
+      width: 20px;
+      padding: 0 2px;
+  } */
+
 
 
   .work-process-timeline .work-process-box .icon-box img,
