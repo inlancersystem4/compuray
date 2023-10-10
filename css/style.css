@@ -501,12 +501,17 @@
       margin-bottom: 24px;
   }
 
+  .hero-section-2 .hero-h1 {
+      color: var(--color6);
+      font-size: 62px;
+  }
+
   .discipline-section {
       width: 100%;
       max-width: 946px;
       margin: 4rem auto;
       display: flex;
-      padding: 22px 39px;
+      padding: 20px 29px;
       align-items: center;
       background-color: var(--color4);
       border-radius: 999px;
@@ -535,7 +540,7 @@
 
   .job-seekers-note {
       background-color: var(--color6);
-      padding: 1.5rem 0;
+      padding: 2.5rem 0;
   }
 
   .job-seekers-note .note {
@@ -555,7 +560,7 @@
   .job-seekers-note .note .note-sub-title {
       color: var(--color4);
       font-size: 20px;
-      margin-top: 10px;
+      margin-top: 1rem;
   }
 
 
@@ -842,6 +847,7 @@
       max-width: 700px;
       width: 100%;
       padding: 7rem 0;
+      font-size: 4rem;
   }
 
   .hero-section-3 .hero-modal {
@@ -1001,7 +1007,7 @@
       top: 32%;
       transform: translateY(-50%);
       left: 0;
-      border: 2px dashed var(--color3);
+      border: 1px dashed var(--color3);
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -1116,7 +1122,7 @@
       letter-spacing: 1px;
   }
 
-  .rotate {
+  .rotate_180deg {
       transform: rotate(180deg);
       transition: 0.4s;
       -webkit-transform: rotate(180deg);

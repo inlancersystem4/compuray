@@ -3,7 +3,7 @@ $(document).ready(function () {
     $(".dropdown .selected-option").click(function () {
         var dropdown = $(this).closest('.dropdown');
         dropdown.find(".dropdown-list").slideToggle();
-        dropdown.find(".bi").toggleClass("rotate");
+        dropdown.find(".bi").toggleClass("rotate_180deg");
     });
 
     $(".dropdown .dropdown-list li").click(function () {
@@ -11,7 +11,7 @@ $(document).ready(function () {
         var dropdown = $(this).closest('.dropdown');
         dropdown.find(".selected-option").html(selectedOption + ' <i class="bi bi-chevron-down"></i>');
         dropdown.find(".dropdown-list").slideUp();
-        dropdown.find(".bi").removeClass("rotate");
+        dropdown.find(".bi").removeClass("rotate_180deg");
     });
 
 
