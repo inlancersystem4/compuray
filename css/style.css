@@ -485,6 +485,7 @@ input[type="checkbox"]:checked {
     background-size: cover;
     position: relative;
     width: 100%;
+    z-index: 99;
 }
 
 .hero-section-2 {
@@ -1077,6 +1078,7 @@ input[type="checkbox"]:checked {
     position: relative;
     width: 100%;
     cursor: pointer;
+    z-index: 99;
 }
 
 .selected-option {
@@ -1101,7 +1103,7 @@ input[type="checkbox"]:checked {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--color4);
     border-top: none;
     border-radius: 0.5rem;
     box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.10);
@@ -1124,6 +1126,8 @@ input[type="checkbox"]:checked {
     text-align: left;
     font-size: 1rem;
     font-weight: 400;
+    z-index: 99;
+    position: relative;
 }
 
 .dropdown-list li:hover {
