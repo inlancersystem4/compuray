@@ -1,4 +1,10 @@
+
+
 $(document).ready(function () {
+
+    AOS.init(
+    );
+
 
     $(".dropdown .selected-option").click(function () {
         var dropdown = $(this).closest('.dropdown');
