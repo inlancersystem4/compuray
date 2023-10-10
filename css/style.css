@@ -1134,3 +1134,60 @@
       -ms-transition: 0.4s;
       -o-transition: 0.4s;
   }
+
+
+  .pagination-row {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      margin-top: 2rem;
+  }
+
+  .pagination-arrow {
+      cursor: pointer;
+      padding: 4px;
+  }
+
+  .pagination-arrow img,
+  .pagination-arrow svg {
+      width: 24px;
+      height: 24px;
+  }
+
+  .pagination-arrow svg path {
+      fill: #1616B4;
+  }
+
+  .pagination-arrow i {
+      color: #1616B4;
+  }
+
+  .pagination-page-count {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+  }
+
+  .pagination-page-count span {
+      color: var(--color9);
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: block;
+      padding: 8px;
+  }
+
+  .pagination-page-count span:hover {
+      color: #1616B4;
+      font-weight: 700;
+  }
+
+  .pagination-page-count .active-page {
+      color: #1616B4;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 700;
+  }

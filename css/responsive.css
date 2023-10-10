@@ -179,7 +179,8 @@
     }
 
     .filter-open-btn {
-        display: block;
+        display: flex;
+        margin-bottom: 2rem;
     }
 
 
