@@ -127,7 +127,7 @@ ul {
     color: var(--color4);
     padding: 9px 24px;
     text-decoration: none;
-    width: fit-content;
+    width: max-content;
     margin: 0 auto;
     outline: none;
     border: 1px solid transparent;
@@ -148,7 +148,7 @@ ul {
     color: var(--color4);
     padding: 8px 18px;
     text-decoration: none;
-    width: fit-content;
+    width: max-content;
     margin: 0 auto;
     outline: none;
     border: 2px solid transparent;
@@ -685,7 +685,7 @@ input[type="checkbox"]:checked {
 
 
 .filter-sidebar>*+* {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .available-job-list {
@@ -788,17 +788,18 @@ input[type="checkbox"]:checked {
     outline: none;
     padding: 8px 6px;
     border-left: 1px solid var(--color9);
-    width: fit-content;
+    width: max-content;
     background-color: var(--color4);
     display: block;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     color: #A4A0A0;
+    font-size: 1rem;
 }
 
 
 .select-location-section .select-location-dropdown {
-    width: 100%;
+    width: 60%;
     padding: 2px 6px 8px 6px;
 }
 
@@ -1196,7 +1197,6 @@ input[type="checkbox"]:checked {
 
 .pagination-page-count span:hover {
     color: #1616B4;
-    font-weight: 700;
 }
 
 .pagination-page-count .active-page {
@@ -1204,4 +1204,17 @@ input[type="checkbox"]:checked {
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
+}
+
+.filter-sidebar-closeBtn {
+    position: absolute;
+    top: 8px;
+    right: 1rem;
+    margin-bottom: 2rem;
+    display: none;
+}
+
+.filter-sidebar-closeBtn i {
+    color: black;
+    font-size: 1.5rem;
 }

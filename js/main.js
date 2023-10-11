@@ -26,7 +26,7 @@ $(document).ready(function () {
         slidesToScroll: 2,
         autoplay: true,
         autoplaySpeed: 2000,
-        dots: false,
+        dots: true,
         arrows: false,
         responsive: [
             {
@@ -60,7 +60,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        dots: false,
+        dots: true,
         arrows: false,
     });
 
@@ -79,4 +79,10 @@ $(".filter-open-btn").click(function () {
 $("#overlay").click(function () {
     $(".filter-sidebar").removeClass("filter-sidebar-show")
     $(this).hide();
+})
+
+
+$(".filter-sidebar-closeBtn").click(function () {
+    $(".filter-sidebar").removeClass("filter-sidebar-show")
+    $("#overlay").hide();
 })

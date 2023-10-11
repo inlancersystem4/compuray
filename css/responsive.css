@@ -4,13 +4,8 @@
         max-width: 100%;
     }
 
-    .about-section .about-content-list .list-items:nth-child(even) {
-        text-align: right;
-    }
-
-    .about-section .about-content-list .list-items:nth-child(even)::before {
-        right: 0;
-        left: auto;
+    .filter-sidebar-closeBtn {
+        display: block;
     }
 
     .why-work-section {
@@ -517,6 +512,11 @@
 
     .filter-sidebar {
         max-width: 90%;
+    }
+
+
+    .hero-section-2 .hero-h1 {
+        font-size: 44px;
     }
 
 }
