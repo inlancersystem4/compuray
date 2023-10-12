@@ -264,6 +264,21 @@
         padding: 0;
     }
 
+
+
+
+
+
+
+
+
+
+    .contact-form {
+        column-gap: 0;
+        row-gap: 2rem;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
 }
 
 
@@ -517,6 +532,63 @@
 
     .hero-section-2 .hero-h1 {
         font-size: 44px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .contact-form {
+        row-gap: 1rem;
+    }
+
+    .contact-form .form-group {
+        gap: 0.3rem;
+    }
+
+    .contact-form .form-group .custom-form-input {
+        padding: 0.60rem;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .contact-form .form-group .custom-form-label {
+        font-size: 14px;
+    }
+
+
+    .contact-form .form-select {
+        padding: 0.60rem;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        font-size: 16px;
+        background-size: 34px;
+    }
+
+    .contact-form input[type="radio"] {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .contact-form input[type="radio"]:checked {
+        background-size: 70%;
+    }
+
+    .contact-form input[type="checkbox"] {
+        width: 1.2rem;
+        height: 1.2rem;
     }
 
 }

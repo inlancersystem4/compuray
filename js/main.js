@@ -68,6 +68,20 @@ $(document).ready(function () {
 });
 
 
+$(".passwordBtn").on("click", function () {
+    var passwordInput = $("#passwordInput");
+    var icon = $(this).find(".password_hide");
+
+    if (passwordInput.attr("type") === "password") {
+        passwordInput.attr("type", "text");
+        icon.show();
+        $(this).find(".password_show").hide();
+    } else {
+        passwordInput.attr("type", "password");
+        icon.hide();
+        $(this).find(".password_show").show();
+    }
+});
 
 
 $(".filter-open-btn").click(function () {

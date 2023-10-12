@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,500&display=swap');
 
 * {
     margin: 0;
@@ -1218,4 +1219,170 @@ input[type="checkbox"]:checked {
 .filter-sidebar-closeBtn i {
     color: black;
     font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-section-4 {
+    padding: 8rem 0;
+}
+
+.hero-section-4 .title {
+    color: var(--color4);
+    text-align: center;
+    font-size: 2.6875rem;
+    font-weight: 500;
+}
+
+.contact-form {
+    display: grid;
+    column-gap: 4rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.contact-form .form-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+}
+
+.contact-form .form-group .custom-form-label {
+    color: #6F7482;
+    font-family: IBM Plex Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.01rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.contact-form .form-group .custom-form-input {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    background: #F8FAFC;
+    border: 1px solid transparent;
+    color: #3B4256;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    width: 100%;
+    letter-spacing: 0.01rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    resize: none;
+}
+
+.contact-form .form-group input::placeholder,
+.contact-form .form-group textarea::placeholder {
+    color: #B8BCCA;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.01rem;
+}
+
+.contact-form .form-group .password-filed {
+    display: flex;
+    align-items: stretch;
+}
+
+.contact-form .form-group .password-filed .passwordBtn {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+.contact-form .form-group .password-filed .passwordBtn .password_hide {
+    display: none;
+}
+
+.contact-form input[type="radio"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid #3B4256;
+    appearance: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.contact-form input[type="radio"]:checked {
+    background-image: url("../img/icons/radio_btn.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.contact-form input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid #3B4256;
+}
+
+.contact-form input[type="checkbox"]:checked {
+    border: 2px solid transparent;
+    background-color: #3B4256;
+}
+
+.input-label {
+    color: #3B4256;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.contact-form .form-select {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    color: #3B4256;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.01rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../img/icons/mdi_arrow_drop_down.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 42px;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    background-color: #F8FAFC;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+
+.contact-form .form-select:focus {
+    box-shadow: none;
 }
