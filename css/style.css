@@ -794,9 +794,13 @@ input[type="checkbox"]:checked {
     display: block;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    color: #A4A0A0;
+    color: black;
     text-align: center;
     font-size: 1rem;
+}
+
+.select-location-section .selected-location-btn::placeholder {
+    color: #A4A0A0;
 }
 
 
@@ -1357,7 +1361,7 @@ input[type="checkbox"]:checked {
     line-height: 140%;
 }
 
-.contact-form .form-select {
+.contact-form .dropdown {
     display: block;
     width: 100%;
     padding: 0.75rem;
@@ -1367,13 +1371,6 @@ input[type="checkbox"]:checked {
     line-height: 150%;
     letter-spacing: 0.01rem;
     font-family: 'IBM Plex Sans', sans-serif;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background-image: url("../img/icons/mdi_arrow_drop_down.svg");
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 42px;
     border: 1px solid transparent;
     border-radius: 0.25rem;
     background-color: #F8FAFC;
@@ -1385,4 +1382,8 @@ input[type="checkbox"]:checked {
 
 .contact-form .form-select:focus {
     box-shadow: none;
+}
+
+.contact-form .dropdown i {
+    font-size: 1rem;
 }
