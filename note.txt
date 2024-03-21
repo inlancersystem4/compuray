@@ -1,0 +1,21 @@
+    March 21 update added new colors  in roots
+
+    chnage logo in all page header and footer
+
+/* March 21 update change footer background color */
+
+    remove one social media icon on footer (facebook)
+
+                    <!-- March 21 update added new link  in footer -->
+
+                    <!-- March 21 update chnage footer padding  -->
+                    <!-- March 21 update chnage footer link list alignment  -->
+
+
+clients page hero section remove overlaye add new modal and old modal chnage data hero section title font size change  
+
+/* March 21 update clients page contant box add new font size remove left side photo  */
+
+
+        <!-- March 21 remove background color and chnage background color ( cliner  page Our Process  section )  -->
+
