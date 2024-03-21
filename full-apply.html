@@ -53,23 +53,151 @@
 
     <main class="background-color-7">
 
-        <section class="hero-section hero-section-5" style="background-image: url('./img/img-8.png');">
+        <section class="hero-section hero-section-5" style="background-image: url('./img/img-8.png');"></section>
 
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="container py-5">
+            <div class="apply-job-form">
+                <div>
+                    <h1 class="title">Want to get ahead of the pack?</h1>
+                    <p class="sub-title">Complete a full application to save time and get hired faster.</p>
+                </div>
+                <div class="mt-4 text-end">
+                    <a href="#" class="return-link">Return to Job Board</a>
+                </div>
+                <form>
+                    <ul class="row p-0 list-unstyled mt-4">
+                        <li class="col-6 mt-3">
+                            <div class="custom-group-box">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email" />
+                            </div>
+                        </li>
+                        <li class="col-6 mt-3">
+                            <div class="custom-group-box">
+                                <label for="phone">Phone*</label>
+                                <input type="number" id="phone" />
+                            </div>
+                        </li>
+                        <li class="col-6 mt-3">
+                            <div class="custom-group-box">
+                                <label for="fName">First Name*</label>
+                                <input type="text" id="fName" />
+                            </div>
+                        </li>
+                        <li class="col-6 mt-3">
+                            <div class="custom-group-box">
+                                <label for="Lname">Last Name*</label>
+                                <input type="text" id="Lname" />
+                            </div>
+                        </li>
+                        <li class="col-4 mt-3">
+                            <div class="custom-group-box">
+                                <label for="address">Address</label>
+                                <input type="text" id="address" />
+                            </div>
+                        </li>
+                        <li class="col-4 mt-3">
+                            <div class="custom-group-box">
+                                <label for="state">State*</label>
+                                <input type="text" id="state" />
+                            </div>
+                        </li>
+                        <li class="col-4 mt-3">
+                            <div class="custom-group-box">
+                                <label for="zip">Zip</label>
+                                <input type="text" id="zip" />
+                            </div>
+                        </li>
+                        <li class="col-4 mt-3">
+                            <div class="custom-group-box">
+                                <label for="profession">Profession*</label>
+                                <select name="" id="profession">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="col-4 mt-3">
+                            <div class="custom-group-box">
+                                <label for="specialty">Specialty*</label>
+                                <select name="" id="specialty">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="col-4 mt-3">
+                            <div class="custom-group-box">
+                                <label for="discipline">Discipline*</label>
+                                <select name="" id="discipline">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="col-6 mt-3">
+                            <div class="custom-group-box">
+                                <label for="yOfEx">Years of Experience</label>
+                                <input type="text" id="yOfEx" />
+                            </div>
+                        </li>
+                        <li class="col-6 mt-3">
+                            <div class="custom-group-box">
+                                <label for="jobType">Job Types</label>
+                                <select name="" id="jobType">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-column align-items-center gap-3">
+                        <button type="button" class="button-rounded block" data-bs-toggle="modal"
+                            data-bs-target="#resumeModal">Complete Application</button>
+                        <a href="#" class="privacy-link">Privacy Policy</a>
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
+
+
+
+    <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <p class="modal-title">Upload your resume?</p>
+                <form>
+                    <div class="drop-box">
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <svg width="81" height="81" viewBox="0 0 81 81" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M67.5 60.75H13.5V27H67.5M67.5 20.25H40.5L33.75 13.5H13.5C11.7098 13.5 9.9929 14.2112 8.72703 15.477C7.46116 16.7429 6.75 18.4598 6.75 20.25V60.75C6.75 62.5402 7.46116 64.2571 8.72703 65.523C9.9929 66.7888 11.7098 67.5 13.5 67.5H67.5C69.2902 67.5 71.0071 66.7888 72.273 65.523C73.5388 64.2571 74.25 62.5402 74.25 60.75V27C74.25 25.2098 73.5388 23.4929 72.273 22.227C71.0071 20.9612 69.2902 20.25 67.5 20.25ZM54 57.375H47.25V43.875H37.125L50.625 30.375L64.125 43.875H54V57.375Z"
+                                    fill="#242442" />
+                            </svg>
+                            <p>Drag your file(s) to start uploading</p>
+                        </div>
+                        <div class="line">
+                            <span> OR </span>
+                        </div>
+                        <button type="button">Browse Files</button>
+                        <input type="file" />
+                    </div>
+                    <button type="submit" class="button-rounded w-100">Upload</button>
+                    <button type="submit" class="skip-modal">Skip for now</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
     <!-- March 21 update change background color  -->

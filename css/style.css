@@ -121,6 +121,15 @@ ul {
     background-color: var(--color7);
 }
 
+input[type=number],
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
 
 .button-rounded {
     background: var(--color2);
@@ -1513,6 +1522,7 @@ input[type="checkbox"]:checked {
 }
 
 
+/* March 21 updated csss  */
 
 #infoModal .modal-dialog {
     max-width: 619px;
@@ -1581,6 +1591,24 @@ input[type="checkbox"]:checked {
     font-size: 16px;
 }
 
+.custom-group-box select {
+    width: 100%;
+    background-color: var(--color4);
+    border: 1px solid var(--color9);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding: 8px 12px;
+    appearance: none;
+    font-size: 16px;
+    background-image: url('../img/icons/select-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: right 12px center;
+}
+
 .custom-group-box label {
     background-color: var(--color4);
     font-size: 14px;
@@ -1603,4 +1631,166 @@ input[type="checkbox"]:checked {
 
 .hero-section-5 {
     height: 376px;
+}
+
+.apply-job-form {
+    background-color: var(--color4);
+    border-radius: 7px;
+    width: 100%;
+    max-width: 980px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin: 0 auto;
+    padding: 16px 26px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.apply-job-form .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color9);
+}
+
+.apply-job-form .sub-title {
+    font-size: 18px;
+    text-align: center;
+    color: var(--color9);
+    margin-top: 8px;
+}
+
+.apply-job-form .return-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color9);
+    text-decoration: none;
+}
+
+.apply-job-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+
+.apply-job-form form .button-rounded {
+    min-width: 396px;
+    max-width: 396px;
+}
+
+.apply-job-form form .privacy-link {
+    color: #1E5BF6;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    width: 100%;
+}
+
+
+
+
+
+
+
+#resumeModal .modal-dialog {
+    max-width: 619px;
+}
+
+#resumeModal .modal-content {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px 26px;
+}
+
+#resumeModal .modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color9);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#resumeModal form {
+    width: 100%;
+    max-width: 404px;
+    margin: 0 auto;
+}
+
+.drop-box {
+    width: 100%;
+    position: relative;
+    border: 1px dashed var(--color11);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.drop-box .line {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.drop-box .line span {
+    padding: 12px;
+    background-color: var(--color4);
+    position: relative;
+    z-index: 99;
+}
+
+.drop-box .line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    height: 1px;
+    background-color: var(--color12);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.drop-box input[type="file"] {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.drop-box button {
+    font-size: 17px;
+    color: var(--color11);
+    text-align: center;
+    font-size: 500;
+    border: 1px solid var(--color11);
+    padding: 4px 12px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background-color: transparent;
+}
+
+#resumeModal form .skip-modal {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--color9);
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    margin-top: 0.8rem;
 }

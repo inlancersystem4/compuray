@@ -32,3 +32,9 @@ chnage full contact us page layout
  
 
 all job list Apply button on click open modal 
+
+
+make new page full appply page from aplly job 
+
+
+make new modal for fully apply page from submit on click  show
