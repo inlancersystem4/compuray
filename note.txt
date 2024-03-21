@@ -19,3 +19,16 @@ clients page hero section remove overlaye add new modal and old modal chnage dat
 
         <!-- March 21 remove background color and chnage background color ( cliner  page Our Process  section )  -->
 
+March 21  job seekers page get startes buuton chnage text (Apply Now)
+
+
+job seekers page hero section title chnage font sie remove overlaye add new searchbar
+
+
+
+
+chnage full contact us page layout
+
+ 
+
+all job list Apply button on click open modal 

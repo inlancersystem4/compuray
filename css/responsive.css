@@ -129,10 +129,10 @@
     }
 
     .hero-section-3 .hero-h1 {
-        padding: 7rem 0 12rem 0;
+        padding: 7rem 0 18rem 0;
     }
 
-    .hero-section-3 .hero-modal {
+    .hero-section-3 .hero-modal-list {
         bottom: 2rem;
         top: auto;
     }
@@ -457,8 +457,8 @@
         font-size: 32px;
     }
 
-    .hero-section-3 .hero-modal {
-        max-width: 92%;
+    .hero-section-3 .hero-modal-list {
+        max-width: 99%;
         margin: auto;
         right: auto;
         left: 1rem;
