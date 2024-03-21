@@ -1,18 +1,15 @@
+$(document).ready(function() {
+
+    AOS.init();
 
 
-$(document).ready(function () {
-
-    AOS.init(
-    );
-
-
-    $(".dropdown .selected-option").click(function () {
+    $(".dropdown .selected-option").click(function() {
         var dropdown = $(this).closest('.dropdown');
         dropdown.find(".dropdown-list").slideToggle();
         dropdown.find(".bi").toggleClass("rotate_180deg");
     });
 
-    $(".dropdown .dropdown-list li").click(function () {
+    $(".dropdown .dropdown-list li").click(function() {
         var selectedOption = $(this).text();
         var dropdown = $(this).closest('.dropdown');
         dropdown.find(".selected-option").html(selectedOption + ' <i class="bi bi-chevron-down"></i>');
@@ -28,8 +25,7 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
         dots: true,
         arrows: false,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 2,
@@ -68,7 +64,7 @@ $(document).ready(function () {
 });
 
 
-$(".passwordBtn").on("click", function () {
+$(".passwordBtn").on("click", function() {
     var passwordInput = $("#passwordInput");
     var icon = $(this).find(".password_hide");
 
@@ -84,19 +80,19 @@ $(".passwordBtn").on("click", function () {
 });
 
 
-$(".filter-open-btn").click(function () {
+$(".filter-open-btn").click(function() {
     $(".filter-sidebar").addClass("filter-sidebar-show")
     $("#overlay").show();
 })
 
 
-$("#overlay").click(function () {
+$("#overlay").click(function() {
     $(".filter-sidebar").removeClass("filter-sidebar-show")
     $(this).hide();
 })
 
 
-$(".filter-sidebar-closeBtn").click(function () {
+$(".filter-sidebar-closeBtn").click(function() {
     $(".filter-sidebar").removeClass("filter-sidebar-show")
     $("#overlay").hide();
 })
