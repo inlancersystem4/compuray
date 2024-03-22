@@ -12,7 +12,7 @@
                     <!-- March 21 update chnage footer link list alignment  -->
 
 
-clients page hero section remove overlaye add new modal and old modal chnage data hero section title font size change  
+clients page hero section remove overlaye add new modal and old modal chnage data hero section title font size change
 
 /* March 21 update clients page contant box add new font size remove left side photo  */
 
@@ -25,16 +25,36 @@ March 21  job seekers page get startes buuton chnage text (Apply Now)
 job seekers page hero section title chnage font sie remove overlaye add new searchbar
 
 
-
-
 chnage full contact us page layout
 
- 
 
-all job list Apply button on click open modal 
+all job list Apply button on click open modal
 
 
-make new page full appply page from aplly job 
+make new page full appply page from aplly job
 
 
 make new modal for fully apply page from submit on click  show
+
+
+
+
+/* March 21 update chnage discipline  css   */
+
+
+/* March 21 update chnage discipline  add new input   */
+
+
+/* March 21 update chnage discipline  add new ul list   */
+
+
+/* March 21 update chnage discipline  add new ul list p tag  */
+
+
+            <!-- March 21 chnage discipline section  -->
+
+
+                <!-- March 21 chnage  discipline added new input  -->
+
+
+                <!-- March 21 chnage  discipline added new list  -->

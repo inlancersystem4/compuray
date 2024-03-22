@@ -357,19 +357,48 @@ input[type="checkbox"]:checked {
 
 
 
-
-
+/* March 21 update chnage home page  testimonial section  */
 
 .testimonial-section {
-    padding: 2rem 0;
+    padding: 4.375rem 0;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.testimonial-section .section-title {
-    color: var(--color3);
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 2rem;
+.testimonial-content-box {
+    background-color: var(--color7);
+    padding: 42px 90px;
+    border-bottom-left-radius: 30px;
 }
+
+.testimonial-content-box .title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    color: var(--color9);
+}
+
+.testimonial-content-box .btn-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+}
+
+.testimonial-section .testimonial {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.testimonial-section .testimonial .title {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--color9);
+}
+
 
 .testimonial-section .testimonial-box {
     display: flex;
@@ -394,13 +423,13 @@ input[type="checkbox"]:checked {
 }
 
 .testimonial-section .testimonial-box .client-name {
-    color: var(--color10);
+    color: var(--color9);
     font-size: 24px;
     font-weight: 500;
 }
 
 .testimonial-section .testimonial-box .client-staus {
-    color: var(--color10);
+    color: var(--color9);
     font-size: 18px;
     margin-top: 6px;
 }
@@ -480,11 +509,16 @@ input[type="checkbox"]:checked {
 
 
 
+/* March Update add new home page hero section  */
 
+.hero-section-1 {
+    padding: 5rem 0;
+}
 
-
-
-
+.hero-section-1 .hero-h1 {
+    color: var(--color11);
+    font-size: 2.625rem;
+}
 
 
 
@@ -510,14 +544,14 @@ input[type="checkbox"]:checked {
     padding: 2.5rem 0;
 }
 
-/* .hero-section-2::after {
+.hero-section-2::after {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     inset: 0;
     background-color: rgba(225, 225, 255, 0.6);
-} */
+}
 
 .hero-h1 {
     font-size: 54px;
@@ -529,12 +563,15 @@ input[type="checkbox"]:checked {
     font-size: 40px;
 }
 
+/* March 21 update chnage discipline  css   */
+
 .discipline-section {
     width: 100%;
     max-width: 946px;
     margin: 4rem auto;
     display: flex;
-    padding: 20px 29px;
+    padding: 13px 36px;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--color4);
     border-radius: 999px;
@@ -542,9 +579,50 @@ input[type="checkbox"]:checked {
     -moz-border-radius: 999px;
     -ms-border-radius: 999px;
     -o-border-radius: 999px;
-    gap: 4rem;
+    gap: 2rem;
+    overflow: hidden;
 }
 
+/* March 21 update chnage discipline  add new input   */
+
+.discipline-section input {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    min-width: 280px;
+    max-width: 280px;
+    overflow: hidden;
+}
+
+/* March 21 update chnage discipline  add new ul list   */
+
+.discipline-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    flex: 1;
+    gap: 1rem;
+    width: 100%;
+    max-width: 440px;
+}
+
+
+
+/* March 21 update chnage discipline  add new ul list p tag  */
+
+
+.discipline-section ul li p {
+    font-size: 12px;
+    color: var(--color9);
+    width: max-content;
+}
+
+/*
 .discipline-section .form-select {
     width: 100%;
     border: 0;
@@ -559,7 +637,7 @@ input[type="checkbox"]:checked {
     color: var(--color3);
     font-size: 22px;
     font-weight: 600;
-}
+} */
 
 .job-seekers-note {
     background-color: var(--color6);
@@ -866,27 +944,25 @@ input[type="checkbox"]:checked {
 }
 
 
-/* March 21 update remove ovelay hero section  */
 
-/* .hero-section-3::after {
+.hero-section-3::after {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     inset: 0;
     background: rgba(39, 36, 220, 0.58);
-} */
+}
 
 /* March 21 update chnage font size and add max-width  */
 
 .hero-section-3 .hero-h1 {
-    color: var(--color6);
+    color: var(--color4);
     font-weight: bold;
     max-width: 700px;
     width: 100%;
     padding: 7rem 0;
-    font-size: 2.5rem;
-    max-width: 521px;
+    font-size: 4rem;
 }
 
 
@@ -1793,4 +1869,99 @@ input[type="checkbox"]:checked {
     text-align: center;
     width: 100%;
     margin-top: 0.8rem;
+}
+
+
+
+
+
+/* March new update home add new slider  */
+
+[home_slider_1] {
+    max-width: 568px;
+    padding-top: 2rem;
+}
+
+[home_slider_1] .slick-dots {
+    bottom: auto;
+    top: 0;
+    left: 0;
+    text-align: left;
+    width: 100%;
+}
+
+[home_slider_1] .slick-dots li {
+    margin-left: 2rem;
+    display: inline-flex;
+}
+
+[home_slider_1] .slick-dots li:nth-child(1) {
+    margin-left: 1rem;
+}
+
+[home_slider_1] .slick-dots li button {
+    display: block;
+    min-width: 50px;
+    max-width: 50px;
+    height: 5px;
+    border-radius: 888px;
+    background: var(--color7);
+    -webkit-border-radius: 888px;
+    -moz-border-radius: 888px;
+    -ms-border-radius: 888px;
+    -o-border-radius: 888px;
+}
+
+[home_slider_1] .slick-dots li.slick-active button {
+    background-color: var(--color1);
+}
+
+[home_slider_1] .slick-dots li button::before {
+    display: none;
+}
+
+.home-slider {
+    width: 100%;
+}
+
+.home-slider h4 {
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--color9);
+    margin-bottom: 10px;
+}
+
+.home-slider p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #595757;
+}
+
+.home-img-section {
+    width: 100%;
+    background-color: var(--color7);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+
+.home-img-section .section-1 {
+    margin-bottom: -9rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.home-img-section .section-2 img {
+    margin-top: -9rem;
+}
+
+
+.home-img-section .section-2 h3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--color9);
+    margin-right: 2rem;
+    display: block;
 }

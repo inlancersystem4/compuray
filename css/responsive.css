@@ -270,7 +270,9 @@
 
 
 
-
+    .discipline-section input {
+        max-width: 100%;
+    }
 
 
 
@@ -329,6 +331,15 @@
         padding-top: 64%;
     }
 
+
+    .apply-job-form{
+        padding: 16px;
+    }
+
+    .apply-job-form form .button-rounded {
+        min-width: 100%;
+        max-width: 100%;
+    }
 
 }
 
