@@ -200,6 +200,57 @@
         outline: none;
     }
 
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-container .info {
+        max-width: 100%;
+    }
+
+    .testimonial-section {
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .testimonial-section .testimonial-content-box {
+        width: 100%;
+        border-radius: 0;
+        text-align: center;
+        padding: 32px 60px;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+    .testimonial-content-box .btn-group {
+        flex-wrap: wrap;
+    }
+
+    .testimonial-section .testimonial {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .home-img-section {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .home-img-section .section-1 {
+        margin-bottom: 0rem;
+    }
+
+    .home-img-section img {
+        width: 100%;
+    }
+
+
+    .home-img-section .section-2 img {
+        margin-top: 0rem;
+        width: 100%;
+    }
 }
 
 
@@ -332,13 +383,26 @@
     }
 
 
-    .apply-job-form{
+    .apply-job-form {
         padding: 16px;
     }
 
     .apply-job-form form .button-rounded {
         min-width: 100%;
         max-width: 100%;
+    }
+
+    .testimonial-section .testimonial-content-box {
+        padding: 26px 40px;
+    }
+
+    .testimonial-content-box .title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .hero-section-1 .hero-h1 {
+        font-size: 2rem;
     }
 
 }
@@ -601,6 +665,49 @@
     .contact-form input[type="checkbox"] {
         width: 1.2rem;
         height: 1.2rem;
+    }
+
+    .contact-container {
+        margin-right: auto;
+        max-width: 96%;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+    }
+
+    .contact-container .title,
+    .contact-container form .title {
+        font-size: 28px;
+    }
+
+    .discipline-section ul {
+        padding-bottom: 8px;
+    }
+
+    .home-slider h4 {
+        font-size: 28px;
+    }
+
+    .home-slider p {
+        font-size: 14px;
+    }
+
+    .home-img-section .section-2 h3 {
+        font-size: 26px;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    [home_slider_1] .slick-dots li button {
+        min-width: 34px;
+        max-width: 34px;
+        height: 2px;
+    }
+
+    [home_slider_1] .slick-dots li {
+        margin-left: 12px;
     }
 
 }

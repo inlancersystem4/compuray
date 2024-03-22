@@ -12,12 +12,9 @@
                     <!-- March 21 update chnage footer link list alignment  -->
 
 
-clients page hero section remove overlaye add new modal and old modal chnage data hero section title font size change
-
-/* March 21 update clients page contant box add new font size remove left side photo  */
 
 
-        <!-- March 21 remove background color and chnage background color ( cliner  page Our Process  section )  -->
+
 
 March 21  job seekers page get startes buuton chnage text (Apply Now)
 
@@ -35,7 +32,6 @@ make new page full appply page from aplly job
 
 
 make new modal for fully apply page from submit on click  show
-
 
 
 
@@ -58,3 +54,5 @@ make new modal for fully apply page from submit on click  show
 
 
                 <!-- March 21 chnage  discipline added new list  -->
+
+make new home page design 
