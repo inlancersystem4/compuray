@@ -1885,12 +1885,12 @@ input[type="checkbox"]:checked {
 
 /* March new update home add new slider  */
 
-[home_slider_1] {
+[home_slider] {
     max-width: 568px;
     padding-top: 2rem;
 }
 
-[home_slider_1] .slick-dots {
+[home_slider] .slick-dots {
     bottom: auto;
     top: 0;
     left: 0;
@@ -1898,16 +1898,16 @@ input[type="checkbox"]:checked {
     width: 100%;
 }
 
-[home_slider_1] .slick-dots li {
+[home_slider] .slick-dots li {
     margin-left: 2rem;
     display: inline-flex;
 }
 
-[home_slider_1] .slick-dots li:nth-child(1) {
+[home_slider] .slick-dots li:nth-child(1) {
     margin-left: 1rem;
 }
 
-[home_slider_1] .slick-dots li button {
+[home_slider] .slick-dots li button {
     display: block;
     min-width: 50px;
     max-width: 50px;
@@ -1920,11 +1920,11 @@ input[type="checkbox"]:checked {
     -o-border-radius: 888px;
 }
 
-[home_slider_1] .slick-dots li.slick-active button {
+[home_slider] .slick-dots li.slick-active button {
     background-color: var(--color1);
 }
 
-[home_slider_1] .slick-dots li button::before {
+[home_slider] .slick-dots li button::before {
     display: none;
 }
 
@@ -1947,22 +1947,23 @@ input[type="checkbox"]:checked {
 
 .home-img-section {
     width: 100%;
+    margin: 0;
     background-color: var(--color7);
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /*display: grid;*/
+    /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
 }
 
 
 .home-img-section .section-1 {
-    margin-bottom: -9rem;
-    display: flex;
-    align-items: flex-end;
+    position: relative;
+    top: 9rem;
+    /*display: flex;*/
+    /*align-items: flex-end;*/
 }
 
-.home-img-section .section-2 img {
+.home-img-section .section-2 {
     margin-top: -9rem;
 }
-
 
 .home-img-section .section-2 h3 {
     margin-top: 3rem;
@@ -1972,4 +1973,11 @@ input[type="checkbox"]:checked {
     color: var(--color9);
     margin-right: 2rem;
     display: block;
+}
+
+[home_slider_img] .slick-slide{
+    margin: 0!important;
+}
+.home-img-section .row>*{
+    padding: 0!important;
 }

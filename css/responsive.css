@@ -239,7 +239,8 @@
     }
 
     .home-img-section .section-1 {
-        margin-bottom: 0rem;
+        position: relative;
+        top: 16rem;
     }
 
     .home-img-section img {
@@ -247,9 +248,8 @@
     }
 
 
-    .home-img-section .section-2 img {
+    .home-img-section .section-2 {
         margin-top: 0rem;
-        width: 100%;
     }
 }
 
@@ -265,6 +265,11 @@
         -ms-border-radius: 12px;
         -o-border-radius: 12px;
         padding: 22px;
+    }
+
+    .home-img-section .section-1 {
+        position: static;
+        /*margin-bottom: 0rem;*/
     }
 
     .discipline-section .section-title {

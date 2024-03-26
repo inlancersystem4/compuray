@@ -34,6 +34,37 @@ $(document).ready(function () {
         autoplaySpeed: 3000,
         dots: true,
         arrows: false,
+        asNavFor: '[home_slider_1_img]',
+    });
+
+    $('[home_slider_1_img]').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        asNavFor: '[home_slider_1]',
+        dots: false,
+        arrows: false,
+    });
+
+    $('[home_slider_2]').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        arrows: false,
+        asNavFor: '[home_slider_2_img]',
+    });
+
+    $('[home_slider_2_img]').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        asNavFor: '[home_slider_2]',
+        dots: false,
+        arrows: false,
     });
 
 
